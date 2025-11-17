@@ -11,7 +11,7 @@ csrXamfi@MacBook-Air-csrXamfi Debug % nm -gU jumper
 0000000100000000 T __mh_execute_header
 000000010000047c T _main
 0000000100000460 T _my_function
-mikhail@MacBook-Air-mikhail Debug % sudo ./bypass_aslr
+csrXamfi@MacBook-Air-mikhail Debug % sudo ./bypass_aslr
 Enter offset to function (nm -gU your_function): 0x0000000100000460
 Enter PID: 5680
 [+] ASLR slide for ./jumper: 0x4b78000
