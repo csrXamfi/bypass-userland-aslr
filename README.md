@@ -20,5 +20,5 @@ Your address: 0x104b78460
 csrXamfi@MacBook-Air-csrXamfi Debug % ./jumper
 Address for my_function: 0x104b78460
 Enter address for jump: 0x104b78460
-Functions called! ASLR bypass!
+Function called! ASLR bypass!
 ```
