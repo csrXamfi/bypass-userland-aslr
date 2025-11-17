@@ -2,7 +2,7 @@
 
 Bypass aslr macos 
 ```bash
-clang -o main.c -o bypass_aslr
+clang main.c -o bypass_aslr
 clang jumper.c -o jumper
 
 output process bypass:
@@ -12,7 +12,7 @@ csrXamfi@MacBook-Air-csrXamfi Debug % nm -gU jumper
 000000010000047c T _main
 0000000100000460 T _my_function
 csrXamfi@MacBook-Air-mikhail Debug % sudo ./bypass_aslr
-Enter offset to function (nm -gU your_function): 0x0000000100000460
+Enter offset to function (nm -gU your_binary): 0x0000000100000460
 Enter PID: 5680
 [+] ASLR slide for ./jumper: 0x4b78000
 Your address: 0x104b78460
