@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void my_function() {
-    printf("Functions called! ASLR bypass!\n");
+    printf("Function called! ASLR bypass!\n");
     exit(0);
 }
 
