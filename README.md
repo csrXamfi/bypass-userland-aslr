@@ -18,7 +18,7 @@ Enter PID: 5680
 Your address: 0x104b78460
 --------------------------------------------
 csrXamfi@MacBook-Air-csrXamfi Debug % ./jumper
-Адрес my_function: 0x104b78460
-Введите адрес для перехода: 0x104b78460
-Функция выполнена! ASLR нагнут!
+Address for my_function: 0x104b78460
+Enter address for jump: 0x104b78460
+Functions called! ASLR bypass!
 ```
