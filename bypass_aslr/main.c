@@ -146,7 +146,7 @@ void bypass_aslr_for_jumper(vm_address_t address) {
 
 int main(int argc, const char * argv[]) {
     vm_address_t address;
-    printf("Enter offset to function (nm -gU your_function): ");
+    printf("Enter offset to function (nm -gU your_binary): ");
     scanf("%lx", &address);
     bypass_aslr_for_jumper(address);
     return EXIT_SUCCESS;
